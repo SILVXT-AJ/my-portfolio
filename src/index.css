@@ -16,16 +16,22 @@ body {
   color: #333333;
 }
 
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: rgba(0, 123, 255, 0.75); /* Semi-transparent */
+  backdrop-filter: blur(12px); /* The frosted glass effect */
+  -webkit-backdrop-filter: blur(12px); /* For Safari */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Subtle edge shine */
+}
+
 .navbar-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #007bff;
   padding: 15px 10%;
   color: #ffffff;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
 }
 
 .navbar-name {
