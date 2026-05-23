@@ -1,4 +1,5 @@
 import hero from './assets/hero.jpg'
+import resume from './assets/resume.pdf'
 
 function Hero() {
     return (
@@ -9,6 +10,7 @@ function Hero() {
             <p className="hero-subtitle">
             I'm a 2nd year BCA student passionate about full-stack development and creating simple, effective solutions to real-world problems.            </p>
             <a href="#projects" className='button-project' >Browse Projects</a>
+            <a href={resume} target='_blank' className='resume-btn' >Resumé</a>
         </div>
         <div className='image-container'>
             <img src={hero} alt="" className='main-image' />

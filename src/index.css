@@ -20,10 +20,9 @@ body {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: rgba(0, 123, 255, 0.75); /* Semi-transparent */
-  backdrop-filter: blur(12px); /* The frosted glass effect */
-  -webkit-backdrop-filter: blur(12px); /* For Safari */
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Subtle edge shine */
+  background-color: rgba(0, 123, 255, 0.75); 
+  backdrop-filter: blur(12px); 
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
 }
 
 .navbar-container {
@@ -129,6 +128,30 @@ body {
   box-shadow: 0 0 35px #007bff52;
 }
 
+.resume-btn{
+  display: inline-block; 
+  text-decoration: none;
+  padding: 10px 15px;
+  border: 1px solid #007bff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  font-weight: lighter;
+  background-color: #ffffff;
+  color:#007bff ;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 15px;
+}
+
+.resume-btn:hover{
+  background-color: #007bff;
+  color:#ffffff ;
+  transform: scale(1.05);
+  box-shadow: 0 0 35px #007bff52;
+}
+
+
 .main-image {
   width: 450px;
   height: 450px;
@@ -229,7 +252,7 @@ body {
 
 .projects-grid {
   display: flex;
-  justify-content: start;
+  justify-content: center;
   flex-wrap: wrap;
   margin-top: 10px;
   gap: 30px;
