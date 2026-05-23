@@ -11,10 +11,11 @@ function About(){
                             constantly learning new technologies to improve my craft.
                         </p>
                         <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur molestiae quis incidunt quibusdam. Ipsum dolor odio eum, aliquam molestiae, tempora deserunt nostrum tempore exercitationem saepe optio veritatis aperiam, accusamus velit?
-                        </p>
+                            a motivated developer on a journey to master the MERN Stack. I enjoy the process of 
+                            turning a blank screen into a functional application. My current focus is on building responsive
+                             frontends with React and learning how to manage data efficiently with MongoDB and Node.js                        </p>
                         <ul className="about-cards">
-                            <li> 2nd Year BCA Student</li>
+                            <li> 3rd Year BCA Student</li>
                             <li> Full-Stack Web Developer</li>
                             <li> Web Designer</li>
                         </ul>
