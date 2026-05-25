@@ -9,6 +9,7 @@ function Skills() {
                     <ul className="skill-list">
                         <li>Responsive Design</li>
                         <li>Wireframing</li>
+                        <li>Prototype</li>
                     </ul>
                 </div>         
                 <div className="skill-column">
